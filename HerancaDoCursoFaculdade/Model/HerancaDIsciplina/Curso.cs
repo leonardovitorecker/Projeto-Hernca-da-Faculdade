@@ -12,14 +12,14 @@ namespace HerancaDoCursoFaculdade.Model.HerancaDIsciplina
         public string Nome { get; set; }
 
 
-        private void ConsultarCurso()
+        public  void ConsultarCurso()
         {
-            Console.WriteLine("CONSULTADO");
+            Console.WriteLine("CONSULTAndo o curso ");
         }
 
-        private void IncluirCurso()
+        public  void IncluirCurso()
         { 
-            Console.WriteLine("incluido"); 
+            Console.WriteLine("incluido o curso"); 
         }
     }
 }

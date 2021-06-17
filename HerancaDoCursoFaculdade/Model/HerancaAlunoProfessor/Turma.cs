@@ -10,18 +10,18 @@ namespace HerancaDoCursoFaculdade.Model.HerancaAlunoProfessor
    public  class Turma
     {
         public string Codigo { get; set; }
-        public Curso  Curso { get; set; }
+        public Curso  CodCurso { get; set; }
         
 
-        private void ListarTurma()
+        public  void ListarTurma()
         {
-            Console.WriteLine("listado");
+            Console.WriteLine("listando a turma ");
 
         }
 
-    private void ListarAlunos()
+    public  void ListarAlunos()
         {
-            Console.WriteLine("listado");
+            Console.WriteLine("listando os alunos ");
         }
          }
 }

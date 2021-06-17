@@ -15,18 +15,14 @@ namespace HerancaDoCursoFaculdade.Model.HerancaAlunoProfessor
         public DateTime DataNascimento { get; set; }
        
 
-        private  void   RegistrarAluno()
+        public void RegistrarAluno()
         {
-            Aluno a = new Aluno();
 
-            a.Nome = "leonardo";
-            a.Sexo = "masculino";
-            a.Matricula = "1 semestre";
-            a.DataNascimento = DateTime.Now;
+
+            Console.WriteLine("registrando dados do aluno");
 
 
 
-          
 
         }
 
@@ -35,35 +31,24 @@ namespace HerancaDoCursoFaculdade.Model.HerancaAlunoProfessor
 
            
         {
-            Console.WriteLine($"DADOS DO ALUNO: \n Nome :{a.Nome} \n" +
-                           $" Sexo: {a.Sexo} \n " +
-                           $" matricula :{a.Matricula} \n " +
-                           $" data de nascimento :{a.DataNascimento} \n");
 
-            Console.ReadLine();
+
+            Console.WriteLine("consultando dados do aluno"); 
 
         }
 
-        private void ExcluirAluno()
+        public void ExcluirAluno()
         {
-        Aluno selec
+            Console.WriteLine("excluindo dados do aluno");
         }
 
 
-        private void AlterarAluno()
+        public  void AlterarAluno()
 
         {
-            RegistrarAluno();
-
-            Aluno a1 = new Aluno() as Aluno;
-                {
-
-                a.Nome = a1.Nome;
+            Console.WriteLine("alterando dados do aluno");
 
 
-                 }
-
-       
         }
 
 

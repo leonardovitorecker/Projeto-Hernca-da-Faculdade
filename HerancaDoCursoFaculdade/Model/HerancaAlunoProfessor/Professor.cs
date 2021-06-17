@@ -14,21 +14,21 @@ namespace HerancaDoCursoFaculdade.Model.HerancaAlunoProfessor
 
 
 
-        private void ConsultarTurma()
+        public  void ConsultarTurma()
         {
-            Console.WriteLine("CONSULTADO");
+            Console.WriteLine("CONSULTAndo a turma do professor");
 
         }
 
-        private void LancarNota()
+        public  void LancarNota()
         {
-            Console.WriteLine("LANCADO");
+            Console.WriteLine("LANCAndo as notas ");
 
         }
 
-        private void RealizarFrequencia()
+        public  void RealizarFrequencia()
         {
-            Console.WriteLine("REALIZADO");
+            Console.WriteLine("REALIZAndo frequenciais ");
         }
     }
 }

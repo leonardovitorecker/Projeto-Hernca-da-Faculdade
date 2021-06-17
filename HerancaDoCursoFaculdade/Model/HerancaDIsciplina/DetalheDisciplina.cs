@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace HerancaDoCursoFaculdade.Model.HerancaDIsciplina
 {
-   public abstract  class DetalheDisciplina
+   public   class DetalheDisciplina
     {
         public Curso Curso { get; set; }
-        public Disciplina Disciplina { get; set; }
+        public Disciplina CodDisciplina { get; set; }
     }
 }

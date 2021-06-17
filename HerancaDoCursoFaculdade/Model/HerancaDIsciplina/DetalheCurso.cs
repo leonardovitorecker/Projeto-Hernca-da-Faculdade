@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace HerancaDoCursoFaculdade.Model.HerancaDIsciplina
 {
-   public abstract  class DetalheCurso
+   public class DetalheCurso
 
 
     {
